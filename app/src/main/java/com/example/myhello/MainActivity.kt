@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnRegister.setOnClickListener{
+        tvRegister.setOnClickListener{
             val Intent= Intent(baseContext,RegistrationActivity::class.java)
             startActivity(intent)
         }
