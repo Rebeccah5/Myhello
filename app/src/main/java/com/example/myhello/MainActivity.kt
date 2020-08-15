@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnLogIn.setOnClickListener {
-            var UserName=tvUserName.text.toString()
+            var UserName=tvEmail.text.toString()
             var Password=tvPassword.text.toString()
             Toast.makeText(baseContext,Password,Toast.LENGTH_SHORT).show()
         }
